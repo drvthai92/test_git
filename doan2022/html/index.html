@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VuncaFoods</title>
+    <link rel="icon" type="image/x-icon" href="../image/favicon (1).ico">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!--navbar-->
+    <header class="header">
+        <a href="#" class="logo"><img src="./image/vuncafoods.png" alt="">Vunca <span>FOODS</span> </a>
+        <nav class="navbar">
+            <a href="#home">Trang chủ</a>
+            <a href="#categories">Danh mục</a>
+
+            <a href="#products">Sản phẩm</a>
+
+            <a href="#blogs">Blogs</a>
+
+            <a href="#customer">Khách hàng</a>
+            <a href="#checkout">Thanh toán</a>
+        </nav>
+        <div class="icons">
+            <i class='bx bx-menu' id="menu-btn"></i>
+            <i class='bx bx-search-alt-2' id="search-btn"></i>
+            <i class='bx bx-cart-alt' id="cart-btn"></i>
+            <i class='bx bxs-user' id="login-btn"></i>
+
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" name="search-form" placeholder="Bạn đang tìm kiếm gì...">
+            <label for="search-box" class='bx bx-search-alt-2'></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+
+                <img src="./image/MATONG.jpg" alt="">
+                <div class="content">
+                    <h3>Mật ong</h3>
+                    <span class="price">$4.99/</span>
+                    <span class="quantity">Số lượng: 1</span>
+                </div>
+            </div>
+            <div class="box">
+
+                <img src="./image/MATONG1.jpg" alt="">
+                <div class="content">
+                    <h3>Mật ong</h3>
+                    <span class="price">$4.79/</span>
+                    <span class="quantity">Số lượng: 5</span>
+
+                </div>
+            </div>
+            <div class="total">Total: $90.02</div>
+            <a href="" class="btn">Thanh toán</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>Đăng nhập</h3>
+            <input type="email" placeholder="Nhập địa chỉ email..." class="box">
+            <input type="password" placeholder="Nhập mật khẩu" class="box">
+            <p>Quên mật khẩu ?<a href="#">Nhấp vào đây</a></p>
+            <p>Bạn chưa có tài khoản <a href="#">Đăng kí ngay</a></p>
+            <input type="submit" value="Đăng nhập" class="btn">
+        </form>
+
+    </header>
+    <!--home-->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <!--slide 1-->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>VuncaFoods</span>
+                    <h1>ĐẶC SẢN VÙNG CAO </h1>
+                    <a href="#" class="btn">Mua ngay<i class='bx bx-right-arrow-alt'></i> </a>
+                </div>
+                <img src="../image/MATONG.jpg" alt="">
+            </div>
+            <!--slide 2-->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>VuncaFoods</span>
+                    <h1>ĐẶC SẢN VÙNG CAO </h1>
+                    <a href="#" class="btn">Mua ngay<i class='bx bx-right-arrow-alt'></i> </a>
+                </div>
+                <img src="../image/MATONG1.jpg" alt="">
+            </div>
+            <!--slide 3-->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>VuncaFoods</span>
+                    <h1>ĐẶC SẢN VÙNG CAO </h1>
+                    <a href="#" class="btn">Mua ngay<i class='bx bx-right-arrow-alt'></i> </a>
+                </div>
+                <img src="../image/MATONG2.jpg" alt="">
+            </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </section>
+
+    <!-- categories -->
+    <section class="categories" id="categories">
+        <div class="heading">
+            <h1>Danh mục sản phẩm <span>VuncaFoods</span>
+            </h1>
+            <a href="#" class="btn">Xem tất cả<i class='bx bx-right-arrow-alt'></i> </a>
+        </div>
+        <div class="categories-container">
+            <!--Box 1-->
+            <div class="box box1">
+                <img src="../image/MIEN.jpg" alt="">
+                <h2>Chè</h2>
+                <span>12 sản phẩm</span>
+                <i class='bx bx-right-arrow-alt'></i>
+            </div>
+            <!--Box 2-->
+            <div class="box box2">
+                <img src="../image/NAMNGOCCAU.jpg" alt="">
+                <h2>Rượu</h2>
+                <span>19 sản phẩm</span>
+                <i class='bx bx-right-arrow-alt'></i>
+            </div>
+            <!--Box 3-->
+            <div class="box box3">
+                <img src="../image/NUTAMTHAT.jpg" alt="">
+                <h2>Nông sản khô</h2>
+                <span>132 sản phẩm</span>
+                <i class='bx bx-right-arrow-alt'></i>
+            </div>
+        </div>
+    </section>
+    <!-- producst -->
+    <section class="products" id="products">
+        <div class="heading">
+            <h1>Sản phẩm nổi bật</h1>
+            <a href="#" class="btn">Xem tất cả<i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+        <div class="products-container">
+            <!--box 1-->
+            <div class="box">
+                <img src="../image/MATONG.jpg" alt="">
+                <span>Chè</span>
+                <h2>Chè shan tuyết Lai Châu<br> Gói 500g</h2>
+                <h3 class="price">100.000 VNĐ<span>/kg</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-15%</span>
+
+            </div>
+            <!--box 2-->
+            <div class="box">
+                <img src="../image/MATONG.jpg" alt="">
+                <span>RƯỢU</span>
+                <h2>RƯƠU TÁO MÈO<br> CHAI 500ML</h2>
+                <h3 class="price">100.000 VNĐ<span>/L</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-15%</span>
+
+            </div>
+            <!--box 3-->
+            <div class="box">
+                <img src="../image/MATONG.jpg" alt="">
+                <span>Chè</span>
+                <h2>Chè shan tuyết Lai Châu<br> Gói 500g</h2>
+                <h3 class="price">100.000 VNĐ<span>/kg</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-15%</span>
+
+            </div>
+            <!--box 4-->
+            <div class="box">
+                <img src="../image/MATONG.jpg" alt="">
+                <span>Chè</span>
+                <h2>Chè shan tuyết Lai Châu<br> Gói 500g</h2>
+                <h3 class="price">100.000 VNĐ<span>/kg</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-15%</span>
+
+            </div>
+            <!--box 5-->
+            <div class="box">
+                <img src="../image/MATONG.jpg" alt="">
+                <span>Chè</span>
+                <h2>Chè shan tuyết Lai Châu<br> Gói 500g</h2>
+                <h3 class="price">100.000 VNĐ<span>/kg</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-15%</span>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- customer's review-->
+    <section class="customers" id="customers">
+        <h2>Cảm nhận của khách hàng về VuncaFoods</h2>
+        <div class="customers-container">
+            <!--review 1-->
+            <div class="box">
+                <i class="bx bxs-quote-alt-left"></i>
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, culpa! Consequuntur tempora
+                    ducimus laboriosam voluptatum cupiditate? Iste similique id, saepe laborum, quia sint fuga
+                    laudantium voluptate minima sunt qui quisquam?</p>
+                <div class="review-profile">
+                    <img src="../image/p1.jpg" alt="">
+                    <h3>Victoria</h3>
+                </div>
+            </div>
+            <!--review 2-->
+            <div class="box">
+                <i class="bx bxs-quote-alt-left"></i>
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, culpa! Consequuntur tempora
+                    ducimus laboriosam voluptatum cupiditate? Iste similique id, saepe laborum, quia sint fuga
+                    laudantium voluptate minima sunt qui quisquam?</p>
+                <div class="review-profile">
+                    <img src="../image/p2.jpg" alt="">
+                    <h3>Selena</h3>
+                </div>
+            </div>
+            <!--review 3-->
+            <div class="box">
+                <i class="bx bxs-quote-alt-left"></i>
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, culpa! Consequuntur tempora
+                    ducimus laboriosam voluptatum cupiditate? Iste similique id, saepe laborum, quia sint fuga
+                    laudantium voluptate minima sunt qui quisquam?</p>
+                <div class="review-profile">
+                    <img src="../image/p3.jpg" alt="">
+                    <h3>Diana</h3>
+                </div>
+            </div>
+            <!--review 4-->
+            <div class="box">
+                <i class="bx bxs-quote-alt-left"></i>
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, culpa! Consequuntur tempora
+                    ducimus laboriosam voluptatum cupiditate? Iste similique id, saepe laborum, quia sint fuga
+                    laudantium voluptate minima sunt qui quisquam?</p>
+                <div class="review-profile">
+                    <img src="../image/p4.jpg" alt="">
+                    <h3>Katy Pery</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!--link to js-->
+    <script src="../js/main.js">
+
+    </script>
+</body>
+
+</html>

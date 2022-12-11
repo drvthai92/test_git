@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VuncaFOODS</title>
+    <link rel="icon" type="image/x-icon" href="./image/favicon (1).ico">
+    <!--Boxicons link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--css link-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header class="header">
+        <a href="#" class="logo"><img src="./image/vuncafoods.png" alt="">Vunca <span>FOODS</span> </a>
+        <nav class="navbar1">
+
+            <a href="#home">Trang chủ</a>
+            <a href="#aboutus">Về chúng tôi</a>
+
+            <a href="#products">Sản phẩm</a>
+
+            <a href="#blogs">Blogs</a>
+
+            <a href="#customer">Khách hàng</a>
+            <a href="#checkout">Thanh toán</a>
+
+
+
+
+        </nav>
+        <div class="icons">
+            <i class='bx bx-menu' id="menu-btn"></i>
+            <i class='bx bx-search-alt-2' id="search-btn"></i>
+            <i class='bx bx-cart-alt' id="cart-btn"></i>
+            <i class='bx bxs-user' id="login-btn"></i>
+
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" name="search-form" placeholder="Bạn đang tìm kiếm gì...">
+            <label for="search-box" class='bx bx-search-alt-2'></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+
+                <img src="./image/MATONG.jpg" alt="">
+                <div class="content">
+                    <h3>Mật ong</h3>
+                    <span class="price">$4.99/</span>
+                    <span class="quantity">Số lượng: 1</span>
+                </div>
+            </div>
+            <div class="box">
+
+                <img src="./image/MATONG1.jpg" alt="">
+                <div class="content">
+                    <h3>Mật ong</h3>
+                    <span class="price">$4.79/</span>
+                    <span class="quantity">Số lượng: 5</span>
+
+                </div>
+            </div>
+            <div class="total">Total: $90.02</div>
+            <a href="" class="btn">Thanh toán</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>Đăng nhập</h3>
+            <input type="email" placeholder="Nhập địa chỉ email..." class="box">
+            <input type="password" placeholder="Nhập mật khẩu" class="box">
+            <p>Quên mật khẩu ?<a href="#">Nhấp vào đây</a></p>
+            <p>Bạn chưa có tài khoản <a href="#">Đăng kí ngay</a></p>
+            <input type="submit" value="Đăng nhập" class="btn">
+        </form>
+
+    </header>
+
+    <!--home section starts-->
+
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <!--slide 1-->
+            <div class="swiper-slide content1">
+                <div class="home-text slide1">
+                    <h3>Đặc sản vùng cao <h1>VuncaFOODS</h1>
+                    </h3>
+                    <P>Mang tinh hoa đến gia đình bạn</P>
+                    <a href="#" class="
+        btn">Mua ngay</a>
+                </div>
+                <img src="./image/pexels-photo-14187363.jpeg" alt="">
+            </div>
+            <!--slide 2-->
+            <div class="swiper-slide content1">
+                <div class="home-text slide2">
+                    <h3>Sales off up to <span>15%</span> cho đơn hàng đầu tiên</h3>
+                    <p>Khi đăng kí thành viên của
+                    <h3>VuncaFOODS</h3>
+                    </p>
+                    <a href="#" class="btn">Mua ngay</a>
+                </div>
+                <img src="./image/member.jpg" alt="">
+            </div>
+            <!--slide 3-->
+            <div class="swiper-slide content1">
+                <div class="home-text slide3">
+                    <h1>MỪNG NĂM MỚI 2023</h1>
+                    <h3>Lì xì <span>59k</span>cho đơn hàng từ <span>345k</span>
+                    </h3>
+                    <a href="#" class="btn">Mua ngay </a>
+                </div>
+                <img src="./image/istockphoto-1367603911-612x612.jpg" alt="">
+            </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </section>
+
+    <!--advertise section starts-->
+    <section class="adver-section" id="aboutus">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="adver-icon mb-md-0 mb-4 bg-color-1">
+                        <img src="./image/delivery.png" alt="">
+                    </div>
+                    <div class="adver-body">
+                        <h3>FREE SHIP</h3>
+                        <span>Miễn phí vẫn chuyển cho đơn hàng từ 299k</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="adver-icon mb-md-0 mb-4 bg-color-2">
+                        <img src="./image/customer-service (1).png" alt="">
+
+                    </div>
+                    <div class="adver-body">
+                        <h3>SUPPORT</h3>
+                        <span>Hỗ trợ khách hàng 24/7</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="adver-icon mb-md-0 mb-4 bg-color-3">
+                        <img src="./image/award.png" alt="">
+                    </div>
+                    <div class="adver-body">
+                        <h3>SUPERIOR QUALITY</h3>
+                        <span>Hàng Việt Nam chất lượng cao</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="adver-icon mb-md-0 mb-4 bg-color-4">
+                        <img src="./image/teamwork.png" alt="">
+                    </div>
+                    <div class="adver-body">
+                        <h3>MEMBER CARD</h3>
+                        <span>Nhiều ưu đãi dành cho thành viên</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our products section-->
+    <section class="home-products" id="products">
+        <div class="home-text container">
+            <h2 class="home-title">Danh mục sản phẩm</h2>
+        </div>
+    </section>
+    <div class="product-filter container">
+        <span class="product-filter-item product-active-filter" data-filter="all-product">Tất cả</span>
+        <span class="product-filter-item" data-filter="danhmuc1">Danh mục 1</span>
+        <span class="product-filter-item" data-filter="danhmuc2">Danh mục 2</span>
+        <span class="product-filter-item" data-filter="danhmuc3">Danh mục 3</span>
+    </div>
+    <section class="products container" id="products">
+
+        <div class="products-container">
+            <!--box 1-->
+            <div class="box-product danhmuc1">
+                <img src="./image/MATONG.jpg" alt="">
+                <span>Chè</span>
+                <h2>Chè shan tuyết Lai Châu<br> Gói 500g</h2>
+                <h3 class="price">100.000 VNĐ<span>/kg</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-15%</span>
+
+            </div>
+            <!--box 2-->
+            <div class="box-product danhmuc2">
+                <img src="./image/MATONG1.jpg" alt="">
+                <span>RƯỢU</span>
+                <h2>RƯƠU TÁO MÈO<br> CHAI 500ML</h2>
+                <h3 class="price">100.000 VNĐ<span>/L</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-15%</span>
+
+            </div>
+            <!--box 3-->
+            <div class="box-product danhmuc2">
+                <img src="./image/MATONG2.jpg" alt="">
+                <span>Chè</span>
+                <h2>Chè shan tuyết Lai Châu<br> Gói 500g</h2>
+                <h3 class="price">100.000 VNĐ<span>/kg</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-15%</span>
+
+            </div>
+            <!--box 4-->
+            <div class="box-product danhmuc2">
+                <img src="./image/MIEN.jpg" alt="">
+                <span>Chè</span>
+                <h2>Chè shan tuyết Lai Châu<br> Gói 500g</h2>
+                <h3 class="price">100.000 VNĐ<span>/kg</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-15%</span>
+
+            </div>
+            <!--box 5-->
+            <div class="box-product danhmuc3">
+                <img src="./image/NAMNGOCCAU.jpg" alt="">
+                <span>Chè</span>
+                <h2>Chè shan tuyết Lai Châu<br> Gói 500g</h2>
+                <h3 class="price">100.000 VNĐ<span>/kg</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-15%</span>
+            </div>
+            <!--box 6-->
+            <div class="box-product danhmuc3">
+                <img src="./image/NAMNGOCCAU.jpg" alt="">
+                <span>Chè</span>
+                <h2>Chè shan tuyết Lai Châu<br> Gói 500g</h2>
+                <h3 class="price">100.000 VNĐ<span>/kg</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-15%</span>
+            </div>
+            <!--box 7-->
+            <div class="box-product danhmuc3">
+                <img src="./image/NAMNGOCCAU.jpg" alt="">
+                <span>Chè</span>
+                <h2>Chè shan tuyết Lai Châu<br> Gói 500g</h2>
+                <h3 class="price">100.000 VNĐ<span>/kg</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-15%</span>
+            </div>
+        </div>
+    </section>
+    <!-- home post -->
+    <section class="home-post" id="blogs">
+        <div class="home-post-text container">
+            <h2 class="home-post-tilte">Blogs của Vuncafoods</h2>
+            <span class="home-post-subtitle">Tinh hoa đặc sản vùng cao</span>
+        </div>
+    </section>
+    <!--post filter-->
+    <div class="post-filter container">
+        <span class="filter-item active-filter" data-filter='all'>Tất cả</span>
+        <span class="filter-item" data-filter="lehoi">Lễ hội</span>
+        <span class="filter-item" data-filter="quytrinh">Quy trình</span>
+        <span class="filter-item" data-filter="congdung">Công dụng</span>
+    </div>
+    <!-- posts -->
+    <section class="post container">
+        <!--post box 1-->
+        <div class="post-box lehoi">
+            <img src="./image/MATONG.jpg" alt="" class="post-img">
+            <h2 class="post-category">Lễ hội</h2>
+            <a href="#" class="post-title">
+                Mùa lễ hội ở SaPa hàng năm
+            </a>
+            <span class="post-date">
+                09/12/2022
+            </span>
+            <p class="post-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, illo possimus, exercitationem delectus
+                earum numquam assumenda sequi itaque eum veritatis fugit vero accusamus consequatur consequuntur at
+                facilis enim sunt non!
+            </p>
+            <div class="post-profile">
+                <img src="./image/p1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Sarah </span>
+            </div>
+        </div>
+        <!--post box 2-->
+        <div class="post-box quytrinh">
+            <img src="./image/MATONG1.jpg" alt="" class="post-img">
+            <h2 class="post-category">công dụng</h2>
+            <a href="#" class="post-title">
+                Lợi ích mật ong
+            </a>
+            <span class="post-date">
+                09/12/2022
+            </span>
+            <p class="post-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, illo possimus, exercitationem delectus
+                earum numquam assumenda sequi itaque eum veritatis fugit vero accusamus consequatur consequuntur at
+                facilis enim sunt non!
+            </p>
+            <div class="post-profile">
+                <img src="./image/p2.jpg" alt="" class="profile-img">
+                <span class="profile-name">Sarah </span>
+            </div>
+        </div>
+        <!--post box 3-->
+        <div class="post-box congdung">
+            <img src="./image/MATONG2.jpg" alt="" class="post-img">
+            <h2 class="post-category">quy trình</h2>
+            <a href="#" class="post-title">
+                Quy trình thu hoạch nấm
+            </a>
+            <span class="post-date">
+                09/12/2022
+            </span>
+            <p class="post-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, illo possimus, exercitationem delectus
+                earum numquam assumenda sequi itaque eum veritatis fugit vero accusamus consequatur consequuntur at
+                facilis enim sunt non!
+            </p>
+            <div class="post-profile">
+                <img src="./image/p3.jpg" alt="" class="profile-img">
+                <span class="profile-name">Sarah </span>
+            </div>
+        </div>
+        <!--post box 4-->
+        <div class="post-box lehoi">
+            <img src="./image/MATONG.jpg" alt="" class="post-img">
+            <h2 class="post-category">Lễ hội</h2>
+            <a href="#" class="post-title">
+                Mùa lễ hội ở SaPa hàng năm
+            </a>
+            <span class="post-date">
+                09/12/2022
+            </span>
+            <p class="post-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, illo possimus, exercitationem delectus
+                earum numquam assumenda sequi itaque eum veritatis fugit vero accusamus consequatur consequuntur at
+                facilis enim sunt non!
+            </p>
+            <div class="post-profile">
+                <img src="./image/p1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Sarah </span>
+            </div>
+        </div>
+        <!--post box 5-->
+        <div class="post-box lehoi">
+            <img src="./image/MATONG1.jpg" alt="" class="post-img">
+            <h2 class="post-category"></h2>công dụng</h2>
+            <a href="#" class="post-title">
+                Lợi ích mật ong
+            </a>
+            <span class="post-date">
+                09/12/2022
+            </span>
+            <p class="post-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, illo possimus, exercitationem delectus
+                earum numquam assumenda sequi itaque eum veritatis fugit vero accusamus consequatur consequuntur at
+                facilis enim sunt non!
+            </p>
+            <div class="post-profile">
+                <img src="./image/p2.jpg" alt="" class="profile-img">
+                <span class="profile-name">Sarah </span>
+            </div>
+        </div>
+        <!--post box 6-->
+        <div class="post-box quytrinh">
+            <img src="./image/MATONG2.jpg" alt="" class="post-img">
+            <h2 class="post-category">quy trình</h2>
+            <a href="#" class="post-title">
+                Quy trình thu hoạch nấm
+            </a>
+            <span class="post-date">
+                09/12/2022
+            </span>
+            <p class="post-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, illo possimus, exercitationem delectus
+                earum numquam assumenda sequi itaque eum veritatis fugit vero accusamus consequatur consequuntur at
+                facilis enim sunt non!
+            </p>
+            <div class="post-profile">
+                <img src="./image/p3.jpg" alt="" class="profile-img">
+                <span class="profile-name">Sarah </span>
+            </div>
+        </div>
+        <!--post box 7-->
+        <div class="post-box congdung">
+            <img src="./image/MATONG.jpg" alt="" class="post-img">
+            <h2 class="post-category">Lễ hội</h2>
+            <a href="#" class="post-title">
+                Mùa lễ hội ở SaPa hàng năm
+            </a>
+            <span class="post-date">
+                09/12/2022
+            </span>
+            <p class="post-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, illo possimus, exercitationem delectus
+                earum numquam assumenda sequi itaque eum veritatis fugit vero accusamus consequatur consequuntur at
+                facilis enim sunt non!
+            </p>
+            <div class="post-profile">
+                <img src="./image/p1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Sarah </span>
+            </div>
+        </div>
+        <!--post box 8-->
+        <div class="post-box congdung">
+            <img src="./image/MATONG1.jpg" alt="" class="post-img">
+            <h2 class="post-category"></h2>công dụng</h2>
+            <a href="#" class="post-title">
+                Lợi ích mật ong
+            </a>
+            <span class="post-date">
+                09/12/2022
+            </span>
+            <p class="post-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, illo possimus, exercitationem delectus
+                earum numquam assumenda sequi itaque eum veritatis fugit vero accusamus consequatur consequuntur at
+                facilis enim sunt non!
+            </p>
+            <div class="post-profile">
+                <img src="./image/p2.jpg" alt="" class="profile-img">
+                <span class="profile-name">Sarah </span>
+            </div>
+        </div>
+        <!--post box 9-->
+        <div class="post-box quytrinh">
+            <img src="./image/MATONG2.jpg" alt="" class="post-img">
+            <h2 class="post-category">quy trình</h2>
+            <a href="#" class="post-title">
+                Quy trình thu hoạch nấm
+            </a>
+            <span class="post-date">
+                09/12/2022
+            </span>
+            <p class="post-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, illo possimus, exercitationem delectus
+                earum numquam assumenda sequi itaque eum veritatis fugit vero accusamus consequatur consequuntur at
+                facilis enim sunt non!
+            </p>
+            <div class="post-profile">
+                <img src="./image/p3.jpg" alt="" class="profile-img">
+                <span class="profile-name">Sarah </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- customer's review-->
+    <section class="customers container" id="customer">
+        <h2>Cảm nhận của khách hàng về VuncaFoods</h2>
+        <div class="customers-container">
+            <!--review 1-->
+            <div class="box">
+                <i class="bx bxs-quote-alt-left"></i>
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, culpa! Consequuntur tempora
+                    ducimus laboriosam voluptatum cupiditate? Iste similique id, saepe laborum, quia sint fuga
+                    laudantium voluptate minima sunt qui quisquam?</p>
+                <div class="review-profile">
+                    <img src="./image/p1.jpg" alt="">
+                    <h3>Victoria</h3>
+                </div>
+            </div>
+            <!--review 2-->
+            <div class="box">
+                <i class="bx bxs-quote-alt-left"></i>
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, culpa! Consequuntur tempora
+                    ducimus laboriosam voluptatum cupiditate? Iste similique id, saepe laborum, quia sint fuga
+                    laudantium voluptate minima sunt qui quisquam?</p>
+                <div class="review-profile">
+                    <img src="./image/p2.jpg" alt="">
+                    <h3>Selena</h3>
+                </div>
+            </div>
+            <!--review 3-->
+            <div class="box">
+                <i class="bx bxs-quote-alt-left"></i>
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, culpa! Consequuntur tempora
+                    ducimus laboriosam voluptatum cupiditate? Iste similique id, saepe laborum, quia sint fuga
+                    laudantium voluptate minima sunt qui quisquam?</p>
+                <div class="review-profile">
+                    <img src="./image/p3.jpg" alt="">
+                    <h3>Diana</h3>
+                </div>
+            </div>
+            <!--review 4-->
+            <div class="box">
+                <i class="bx bxs-quote-alt-left"></i>
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, culpa! Consequuntur tempora
+                    ducimus laboriosam voluptatum cupiditate? Iste similique id, saepe laborum, quia sint fuga
+                    laudantium voluptate minima sunt qui quisquam?</p>
+                <div class="review-profile">
+                    <img src="./image/p4.jpg" alt="">
+                    <h3>Katy Pery</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--jquery link-->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!--js link-->
+    <script src="script.js"></script>
+    <script src="./post.js"></script>
+    <script src="./products.js"></script>
+</body>
+
+</html>
